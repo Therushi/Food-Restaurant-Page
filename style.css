@@ -79,3 +79,27 @@ body{
   position: absolute;
   margin-left: 30%;
 }
+
+@media screen and (max-width : 678px) {
+  .container{
+    padding: 10px;
+  }
+  .navbar div img{
+    width: 100px;
+  }
+  .navbar div .list{
+    display: none;
+  }
+
+  .hero-heading{
+    font-size: 40px;
+    width: 300px;
+  }
+  .bottom div img{
+    width: 100px;
+    margin-left: -35px;
+  }
+  .bottom{
+    margin-top: 50px;
+  }
+}
